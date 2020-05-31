@@ -30,7 +30,7 @@ jobs:
       
       
     - name: Run Surge
-      run: surge ./ bootcamptrip.surge.sh --token ${{secret.SURGE_TOKEN}}
+      run: surge ./ bootcamptrip.surge.sh --token ${{secrets.SURGE_TOKEN}}
         
        
       
